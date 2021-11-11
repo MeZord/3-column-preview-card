@@ -114,7 +114,7 @@ button {
 .container .wrapper .card1 .icon {
   height: 42px;
   margin-bottom: 3.4rem;
-  background-image: url(/images/icon-sedans.svg);
+  background-image: url(../images/icon-sedans.svg);
   background-repeat: no-repeat;
 }
 
@@ -150,7 +150,7 @@ button {
 .container .wrapper .card2 .icon {
   height: 42px;
   margin-bottom: 3.4rem;
-  background-image: url(/images/icon-suvs.svg);
+  background-image: url(../images/icon-suvs.svg);
   background-repeat: no-repeat;
 }
 
@@ -189,7 +189,7 @@ button {
 .container .wrapper .card3 .icon {
   height: 42px;
   margin-bottom: 3.4rem;
-  background-image: url(/images/icon-luxury.svg);
+  background-image: url(../images/icon-luxury.svg);
   background-repeat: no-repeat;
 }
 
