@@ -1,0 +1,136 @@
+.container{
+    
+    min-height: 100vh;
+    margin: 0 2.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+& .wrapper{
+
+        @include breakpoint-up(medium){
+            display: flex;
+            flex-direction: row;
+            height: 100%;   
+        }
+       
+         @include breakpoint-up(large){
+            display: flex;
+            flex-direction: row;
+            height: 100%;  
+      }
+    
+
+    & .card1{
+        padding-top: 4.8rem;
+        padding-left: 4.8rem;
+        padding-right: 4.8rem;
+        border-radius: 1.2rem 1.2rem 0 0    ;
+        background-color: $brightorange;
+    
+    @include breakpoint-up(medium){
+        width: 175px;
+        border-radius: 1.2rem 0 0 1.2rem;
+       
+    }
+
+    @include breakpoint-up(large){
+        width:211px;
+        border-radius: 1.2rem 0 0 1.2rem;
+    }
+   
+
+
+    & .icon{
+        height: 42px;
+        margin-bottom: 3.4rem;
+        background-image:url(/images/icon-sedans.svg);
+        background-repeat: no-repeat;
+        
+        }
+
+& .button-cta{
+        color: $brightorange;
+
+        &:hover{
+            border: 2px solid $verylightgray;
+            background-color: transparent;
+            color: $verylightgray;
+        }
+}
+    
+    }
+    & .card2{
+        padding-top: 4.8rem;
+        padding-left: 4.8rem;
+        padding-right: 4.8rem;
+        background-color: $darkcyan;
+
+        @include breakpoint-up(medium){
+            width: 175px;
+            
+           
+        }
+
+        @include breakpoint-up(large){
+            width:211px;
+        }
+    
+    
+        & .icon{
+            height: 42px;
+            margin-bottom: 3.4rem;
+            background-image:url(/images/icon-suvs.svg);
+            background-repeat: no-repeat;
+      
+            }
+    
+    & .button-cta{
+            color: $darkcyan;
+            &:hover{
+                border: 2px solid $verylightgray;
+                background-color: transparent;
+                color: $verylightgray;
+            }
+    }
+        
+        }
+        & .card3{
+            padding-top: 4.8rem;
+            padding-left: 4.8rem;
+            padding-right: 4.8rem;
+            border-radius: 0 0 1.2rem 1.2rem;
+            background-color: $verydarkcyan;
+
+            @include breakpoint-up(medium){
+                width: 175px;
+                border-radius: 0 1.2rem 1.2rem 0;
+               
+            }
+            @include breakpoint-up(large){
+                width:211px;
+                border-radius: 0 1.2rem 1.2rem 0;
+            }
+        
+            & .icon{
+                height: 42px;
+                margin-bottom: 3.4rem;
+                background-image:url(/images/icon-luxury.svg);
+                background-repeat: no-repeat;
+               
+                }
+        
+        & .button-cta{
+                color: $verydarkcyan;
+        
+
+            &:hover{
+                border: 2px solid $verylightgray;
+                background-color: transparent;
+                color: $verylightgray;
+                }
+             }   
+         }
+     }
+}
